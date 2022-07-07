@@ -1,0 +1,26 @@
+body {
+    display         : flex;
+    flex-direction  : column;
+    justify-content : center;
+    align-items     : center;
+    background-color: cadetblue;
+}
+h3{
+    font-size: 2rem;
+}
+canvas {
+    border: 2px solid black;
+    margin: auto;
+    width : auto;
+}
+#boton{
+    padding: 10px;
+    border-radius: 15px;
+    font-size: 2rem;
+}
+
+@media screen and (max-width:1100px) {
+    canvas {
+        width: 95%
+    }
+}
